@@ -1,3 +1,4 @@
+all: phase1 phase2 phase3 phase4 phase5
 phase1:
 	./hex2raw < touch1.txt | ./ctarget -q
 phase2:
